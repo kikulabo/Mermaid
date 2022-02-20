@@ -83,7 +83,7 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 ```
 
-##　　応用
+## 応用
 
 ```
 classDiagram
