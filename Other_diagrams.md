@@ -73,6 +73,7 @@ Future task2               :         des4, after des3, 5d
 # Pie chart diagrams
 
 ```
+%%{init:{'theme':'default','flowchart':{'rankSpacing':100}}}%%
 pie title Pets adopted by volunteers
     "Dogs" : 386
     "Cats" : 85
@@ -80,6 +81,7 @@ pie title Pets adopted by volunteers
 ```
 
 ```mermaid
+%%{init:{'theme':'default','flowchart':{'rankSpacing':100}}}%%
 pie title Pets adopted by volunteers
     "Dogs" : 386
     "Cats" : 85
