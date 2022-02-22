@@ -212,6 +212,44 @@ flowchart LR
    A -- text --> B -- text2 --> C
 ```
 
+## 線の種類を変える
+
+線を太くする
+
+```
+flowchart LR
+   A ==> B
+```
+
+```mermaid
+flowchart LR
+   A ==> B
+```
+
+点線
+
+```
+flowchart LR;
+   A-.->B;
+```
+
+```mermaid
+flowchart LR;
+   A-.->B;
+```
+
+矢印無し
+
+```
+flowchart LR
+    A --- B
+```
+
+```mermaid
+flowchart LR
+    A --- B
+```
+
 ## 応用
 
 ```
